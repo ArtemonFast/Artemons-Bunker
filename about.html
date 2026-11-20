@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>~/about</title>
+  <link rel="stylesheet" href="./res/styles/base.css">
+  <link rel="stylesheet" href="./res/styles/about.css">
+</head>
+<body>
+  <div class="container">
+
+    <nav class="site-nav">
+      <a href="./index.html">main</a>
+      <a href="./projects.html">projects</a>
+      <a href="./logs.html">logs</a>
+      <a href="./about.html">about</a>
+    </nav>
+
+    <main class="terminal">
+
+      <span class="cmd">whoami</span>
+      <p class="cmd-out">
+        [твоё имя] — веб-разработчик, люблю маленький веб,
+        чистый HTML и вещи, которые не ломаются через год.
+      </p>
+
+      <span class="cmd">cat about.md</span>
+      <p class="cmd-out">
+        Делаю сайты, иногда — утилиты. Пишу о том, что интересно:
+        от низкоуровневых вещей до дизайна интерфейсов.
+        Не люблю JavaScript — и не скрываю этого.
+        Считаю, что веб должен быть быстрым, доступным и приватным.
+      </p>
+
+      <span class="cmd">ls links/</span>
+      <ul class="cmd-out">
+        <li><a href="https://github.com/yourname" rel="me noopener">github.com/yourname</a></li>
+        <li><a href="https://t.me/yourname" rel="me noopener">t.me/yourname</a></li>
+        <li><a href="mailto:you@example.com" rel="me">you@example.com</a></li>
+      </ul>
+
+      <span class="cmd">cat pgp.txt</span>
+      <p class="cmd-out">
+        Отпечаток PGP: <span style="color:#ffd7a0">XXXX XXXX XXXX XXXX</span>
+      </p>
+
+      <span class="cmd">exit</span>
+      <p class="cmd-out">
+        <span class="muted">[process completed]</span>
+        <span class="cursor" aria-hidden="true"></span>
+      </p>
+
+    </main>
+
+  </div>
+</body>
+</html>

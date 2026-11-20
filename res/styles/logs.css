@@ -1,0 +1,26 @@
+.log-year { margin-bottom: 2.5rem; }
+.log-year > h2 {
+  font-family: var(--mono);
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.25rem;
+  margin: 0 0 1rem;
+}
+
+.log-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.log-list li {
+  padding: 0.4rem 0;
+  border-bottom: 1px dotted var(--border);
+}
+.log-list li:last-child { border-bottom: 0; }
+
+.log-date { color: var(--muted); }
+.log-sep  { color: var(--muted); margin: 0 0.15rem; }
+.log-desc { color: var(--muted); }

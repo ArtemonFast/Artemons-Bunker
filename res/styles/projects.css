@@ -1,0 +1,25 @@
+.year { margin-bottom: 2.5rem; }
+.year > h2 {
+  font-family: var(--mono);
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.25rem;
+  margin: 0 0 1rem;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.project-list li { margin-bottom: 1.35rem; }
+.project-list a {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 1.02rem;
+}
+.project-desc {
+  margin: 0.2rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
